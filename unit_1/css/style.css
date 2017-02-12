@@ -1,7 +1,5 @@
 body {
-    background-color: cccccc;
-}
-
-h1, p {
-    color: red;
+    color: coral;
+    background-color: seashell;
+    font-family: Palatino Linotype
 }

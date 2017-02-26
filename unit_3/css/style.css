@@ -1,0 +1,46 @@
+body {
+    margin-right: 100px;
+    margin-left: 100px;
+    background: 000000;
+	color: #B72366;
+    font-family: "Palatino Linotype", serif;
+}
+
+header {
+	font-style: italic;
+	padding: 20px;
+	text-align: center;
+    line-height: 1,3;
+}
+
+nav a {
+	color: #B72366;
+	font-style: normal;
+	margin-right: 30px;
+	font-style: italic;
+}
+
+a {
+	color: #9C4F66;
+	text-decoration: none;
+}
+
+ul {
+	padding-left: 20px
+	list-style-type: none;
+}
+
+footer {
+	font-style: normal;
+	text-align: center;
+}
+
+img {
+	width: 100%
+}
+
+hr {
+	width: 100%
+}
+
+#slogan

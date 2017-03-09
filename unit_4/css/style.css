@@ -7,12 +7,13 @@ body {
     margin-right: 100px;
     margin-left: 100px;
     background: 000000;
-	color: #B72366;
+	color: #1E2A2B;
 }
 
 header {
 	font-family: "Playfair", serif;
 	font-style: italic;
+	color: #B72366;
 	padding: 20px;
 	text-align: center;
     line-height: 1,3;
@@ -21,8 +22,8 @@ header {
 nav a {
 	font-family: 'Quicksand', sans-serif;
 	font-style: normal;
-	color: #B72366;
-	margin-right: 30px;
+	font-color: #B72366;
+	margin: 3em;
 }
 
 a {
@@ -50,7 +51,7 @@ img {
 hr {
 	border: none;
 	height: 2px;
-	background-color: #B72366;
+	background-color: #1E2A2B;
 	width: 50em
 }
 

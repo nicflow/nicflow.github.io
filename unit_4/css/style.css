@@ -38,6 +38,11 @@ ul {
 	list-style-type: none;
 }
 
+.topics{
+	width:20em;
+	margin: 2em auto;
+}
+
 footer {
 	font-family: 'Quicksand', sans-serif;
 	font-style: normal;

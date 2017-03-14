@@ -24,12 +24,18 @@ nav a {
 	font-style: normal;
 	font-color: #B72366;
 	margin: 3em;
+	font-size: 1.15em;
+}
+
+img {
+	width: 100%
 }
 
 a {
 	color: #9C4F66;
 	text-decoration: none;
 	font-weight: bold;
+	font-size: 1.15em;
 /*	border-bottom: 1px solid #9C4F66;*/
 }
 
@@ -47,10 +53,7 @@ footer {
 	font-family: 'Quicksand', sans-serif;
 	font-style: normal;
 	text-align: center;
-}
-
-img {
-	width: 100%
+	font-size: .85em;
 }
 
 hr {

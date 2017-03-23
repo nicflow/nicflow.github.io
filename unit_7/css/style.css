@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Arsenal');
+
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 14px; /*1em = 14px*/
+    margin-right: 3.5em;
+    margin-left: 3.5em;
+	color: #324647;
+}
+
+nav a {
+	font-family: 'Quicksand', sans-serif;
+	font-style: normal;
+	font-color: #324647;
+	font-size: .90em;
+	float: right;
+    padding: 1.5em;
+}
+
+nav a:hover {
+	color: #9C4F66;
+}
+
+section {
+	line-height: 1,3;
+    margin: 1em 0;
+    padding: 1.5em;
+}
+
+em {
+	font-style: italic;
+	font-weight: bold;
+}
+
+#bcg {
+	background-image: url(../images/mountains.jpg);
+	height: 22em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+	text-align: center;
+}
+
+#bcgabout {
+	background-image: url(../images/about/sanfranciscobridge.jpg);
+	height: 22em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #324647;
+	text-align: center;
+}
+
+img {
+	background-size: cover;
+	width: 100%
+}
+
+a {
+	color: #9C4F66;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+h1 {
+	font-family: "Arsenal", sans-serif;
+	font-size: 3em;
+	font-weight: bold;
+	margin: 3em 0 0 0;
+}
+
+h2 {
+	font-family: "Arsenal", serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: .75em 0 .75em 0; 
+}
+
+main h5 {
+	font-family: "Arsenal", sans-serif;
+	text-align: center;
+	font-size: 1.5em;
+	padding-top: 1.25em;
+}
+
+.topics{
+	width:24%;
+	margin: .5%;
+	padding: 2em 0;
+	line-height: 1.25em;
+	float: left;
+}
+
+.about {
+	line-height: 1.5em;
+	padding-top: 2em;
+	text-align: justify;
+	margin: 0 5em;
+}
+
+.about img {
+	float: left;
+	width: 20%;
+	padding: .5em 2em;
+}
+
+.aboutphotos {
+	width: 19%;
+	margin: .5%;
+	padding: 1.25em 0 0 0;
+	float: left;
+}
+
+p {
+	padding-bottom: 1em;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	background-color: #9C4F66;
+	width: 100%
+}
+
+footer {
+	clear: both;
+	height: 10em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Quicksand', sans-serif;
+	font-style: normal;
+	text-align: center;
+	font-size: .90em;
+	margin: 1em;
+}
+
+#mobile {
+	display: none;
+}
+
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;#bcg
+	height: 0;
+	font-size: 0;
+	visibility; hidden;
+}
+
+@media only screen and (min-width: 1925px) {
+	body {
+		font-size: 1.05em;
+		margin: auto;
+	}
+	.about {
+		margin: 0 3em;
+	}
+	.about img {
+		width: 15%;
+	}
+}
+
+@media only screen and (max-width: 1080px) {
+	.about {
+		margin: auto;
+	}
+	.about img {
+		width: 35%;
+	}
+	h5 {
+		line-height: 1.25em;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.topics {
+		margin: 2em;
+		width: 40%;
+	}
+	.about {
+		margin: auto;
+	}
+	.about img {
+		width: 35%;
+	}
+	h1 {
+		font-size: 2.5em;
+		margin: 3em 1em;
+	}
+	h2 {
+		font-size: 1.25em;
+		font-weight: bold;
+	}
+}
+
+@media only screen and (max-width: 675px) {
+	body {
+		margin: auto;
+	}
+	#bcg {
+		width: 100%
+	}
+	.topics {
+		width: 40%;
+	}
+	h2 {
+		font-size: 1.25em;
+		font-weight: bold;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	nav a {
+		float: none;
+		width: auto;
+		display: none;
+		padding: .5em;
+	}
+	#mobile {
+		display: block;
+	}
+	nav:hover a {
+		display: block;
+	}
+	body {
+		margin: auto;
+	}
+	#bcg {
+		width: 100%
+	}
+	.topics {
+		width: 100%;
+	}
+	h2 {
+		font-size: 1.25em;
+		font-weight: bold;
+	}
+}
+
+/*aside {
+	padding: 1.5em;
+	float: right;
+	width: 20%;
+	margin: 2em auto;
+}*/

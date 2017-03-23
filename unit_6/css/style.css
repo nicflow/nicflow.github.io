@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Arsenal');
+
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 14px; /*1em = 16px*/
+    margin-right: 50px;
+    margin-left: 50px;
+	color: #324647;
+}
+
+nav a {
+	font-family: 'Quicksand', sans-serif;
+	font-style: normal;
+	font-color: #324647;
+	font-size: .90em;
+/*	margin: 1em 0 2em 3em;
+*/	float: right;
+    padding: 1.5em;
+}
+
+nav a:hover {
+	color: #9C4F66;
+}
+
+section {
+	line-height: 1,3;
+    margin: 1em 0;
+    padding: 1.5em;
+}
+
+em {
+	font-style: italic;
+	font-weight: bold;
+}
+
+#bcg {
+	background-image: url(../images/mountains.jpg);
+	height: 22em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+	text-align: center;
+}
+
+#bcg2 {
+	background-image: url(../images/about/sanfranciscobridge.jpg);
+	height: 22em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #324647;
+	text-align: center;
+}
+
+#slogan {
+	font-size: 1.25em;
+	font-weight: normal;
+}
+
+img {
+	background-size: cover;
+	width: 100%
+}
+
+a {
+	color: #324647;
+	text-decoration: none;
+	font-weight: bold;
+/*	border-bottom: 1px solid #9C4F66;*/
+}
+
+h1 {
+	font-family: "Arsenal", sans-serif;
+	font-size: 3em;
+	font-weight: bold;
+	margin: 3em 0 0 0;
+	/*font-style: italic;*/
+	/*color: #fff;*/
+}
+
+h2 {
+	font-family: "Arsenal", serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	/*font-style: italic;*/
+	padding: .75em 0 .75em 0; 
+}
+
+h3 {
+	font-family: "Playfair", serif;
+	font-style: italic;
+	font-size: 1.25em;
+	/*font-weight: bold;*/
+	text-align: center;
+	/*margin: 0 25em;*/
+	line-height: 2em;
+}
+
+h4 {
+	font-family: "Arsenal", sans-serif;
+	text-align: center;
+	font-size: 1.25em;
+	padding-bottom: .5em;
+	/*font-weight: bold;*/
+}
+
+main {
+	float: left;
+	/*width: 75%;*/
+}
+
+main h5 {
+	font-family: "Arsenal", sans-serif;
+	text-align: center;
+	font-size: 1.5em;
+	padding-top: 1.25em;
+	/*font-weight: bold;*/
+}
+
+.topics{
+	width:24%;
+	margin: .5%;
+	padding: 2em 0;
+	line-height: 1.25em;
+	float: left;
+}
+
+.about {
+	/*float: right;*/
+	line-height: 1.5em;
+	padding-top: 2em;
+	text-align: justify;
+	margin: 0 5em;
+}
+
+.about img {
+	float: left;
+	width: 25%;
+	padding: .5em 2em;
+}
+
+.photos {
+	width: 19%;
+	margin: 1em .5%;
+	padding: 1.25em 0 0 0;
+	line-height: 1.15em;
+	float: left;
+}
+
+p {
+	padding-bottom: 1em;
+}
+
+/*aside {
+	padding: 1.5em;
+	float: right;
+	width: 20%;
+	margin: 2em auto;
+}*/
+
+
+/*aside p {
+	font-size: .9em;
+	padding-bottom: 1em;
+}*/
+
+hr {
+	border: none;
+	height: 1px;
+	background-color: #9C4F66;
+	width: 100%
+}
+
+footer {
+	clear: both;
+	/*/*background-image: url(../images/footer.jpg);*/
+	height: 10em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Quicksand', sans-serif;
+	font-style: normal;
+	text-align: center;
+	font-size: .90em;
+	margin: 1em;
+}
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;#bcg
+	height: 0;
+	font-size: 0;
+	visibility; hidden;
+}

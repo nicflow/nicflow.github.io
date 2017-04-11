@@ -60,6 +60,13 @@ h2 {
 	padding: .5em 0 .5em 0; 
 }
 
+main h4 {
+	font-family: "Arsenal", sans-serif;
+	text-align: center;
+	font-size: 1.5em;
+	padding: .5em;
+}
+
 main h5 {
 	font-family: "Arsenal", sans-serif;
 	text-align: center;
@@ -102,13 +109,18 @@ aside {
 	padding: 1.5em;
 	float: right;
 	width: 20%;
-	margin: 2em 3em 2em 5em;
+	margin: 1em 3em 0 5em;
 	line-height: 1.5em;
 }
 
 aside h2 {
 	text-align: center;
-	padding-bottom: 3em;
+	padding-bottom: 1em;
+}
+
+aside hr {
+	margin-bottom: 1em;
+	width: 75%;
 }
 
 #bcghome {
@@ -194,6 +206,10 @@ aside h2 {
 	width: 50%;
 }
 
+.about p, h5 {
+	width: 70%;
+}
+
 .about-photos {
 	width: 19%;
 	margin: .5%;
@@ -234,7 +250,7 @@ aside h2 {
 		padding: .5em 0;
 		line-height: 1.25em;
 	}
-	.topics {
+	.topics, .travel {
 		width: 46%;
 		margin: 1%; 
 		padding: 1%;
@@ -249,7 +265,7 @@ aside h2 {
 }
 
 @media only screen and (max-width: 900px) {
-	.topics {
+	.topics, .travel {
 		height: 360px;
 	}
 }
@@ -263,7 +279,7 @@ aside h2 {
 		font-size: 1.25em;
 		font-weight: bold;
 	}
-	.topics {
+	.topics, .travel {
 		height: 310px;
 	}
 	.about img {
@@ -289,7 +305,7 @@ aside h2 {
 	#bcg {
 		width: auto;
 	}
-	.topics {
+	.topics, .travel {
 		width: auto;
 		height: 400px;
 		float: none;
@@ -306,10 +322,13 @@ aside h2 {
 	main h5 {
 		font-size: 1.25em;
 	}
-	.topics {
-		height: 360px;
+	.topics, .travel {
+		height: auto;
 	}
 	.about {
 		padding-top: .85em;
+	}
+	aside {
+		display: none;
 	}
 }

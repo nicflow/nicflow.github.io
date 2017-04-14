@@ -16,8 +16,12 @@ nav a {
 	font-style: normal;
 	font-color: #324647;
 	font-size: .90em;
-	float: right;
+	float: left;
     padding: 1.5em;
+}
+
+nav {
+	float: right;
 }
 
 nav a:hover {
@@ -190,12 +194,18 @@ aside hr {
 	display: none;
 }
 
+#wrapper {
+	max-width: 1240px; 
+	margin: 0 auto;
+}
+
 .topics, .travel {
 	width: 24%;
 	margin: .5%;
 	padding: .5% 0;
 	line-height: 1.5em;
 	float: left;
+	height: 300px;
 }
 
 .about, .writes, .eats {
@@ -203,6 +213,20 @@ aside hr {
 	padding-top: 2em;
 	text-align: justify;
 	margin: 0 2em;
+}
+
+.about {
+	width: 68%;
+	float:left;
+	margin-right: 0;
+}
+
+aside {
+	margin-left: 0em;
+}
+
+#right-image {
+	float: right;
 }
 
 .about img {
@@ -216,7 +240,7 @@ aside hr {
 }
 
 .about p, h5 {
-	width: 70%;
+	width: 100%;
 }
 
 .about-photos {

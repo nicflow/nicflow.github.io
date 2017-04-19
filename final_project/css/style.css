@@ -113,7 +113,7 @@ aside {
 	padding: 1.5em;
 	float: right;
 	width: 20%;
-	margin: 1em 3em 0 5em;
+	margin: 1em 3em 0 0em;
 	line-height: 1.5em;
 }
 
@@ -132,6 +132,7 @@ aside hr {
 	height: 22em;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	color: #fff;
 	text-align: center;
 }
@@ -141,6 +142,7 @@ aside hr {
 	height: 22em;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	color: #fff;
 	text-align: center;
 }
@@ -150,6 +152,7 @@ aside hr {
 	height: 22em;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	color: #324647;
 	text-align: center;
 }
@@ -159,6 +162,7 @@ aside hr {
 	height: 22em;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	color: #fff;
 	text-align: center;
 }
@@ -168,6 +172,7 @@ aside hr {
 	height: 22em;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	color: #fff;
 	text-align: center;
 }
@@ -177,6 +182,7 @@ aside hr {
 	height: 22em;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	color: #fff;
 	text-align: center;
 }
@@ -186,6 +192,7 @@ aside hr {
 	height: 22em;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	color: #324647;
 	text-align: center;
 }
@@ -216,17 +223,9 @@ aside hr {
 }
 
 .about {
-	width: 68%;
+	width: 67%;
 	float:left;
 	margin-right: 0;
-}
-
-aside {
-	margin-left: 0em;
-}
-
-#right-image {
-	float: right;
 }
 
 .about img {
@@ -241,13 +240,6 @@ aside {
 
 .about p, h5 {
 	width: 100%;
-}
-
-.about-photos {
-	width: 19%;
-	margin: .5%;
-	padding: 1.25em 0 0 0;
-	float: left;
 }
 
 .clearfix:after {
@@ -270,12 +262,6 @@ aside {
 	.about img {
 		width: 15%;
 	}
-	.about-photos {
-		width: 19%;
-		margin: .5%;
-		padding: 1.25em 0 0 0;
-		float: left;
-	}
 }
 
 @media only screen and (max-width: 1080px) {
@@ -287,7 +273,7 @@ aside {
 		width: 46%;
 		margin: 1%; 
 		padding: 1%;
-		height: 375px;
+		height: auto;
 	}
 	.about {
 		margin: auto;
@@ -299,7 +285,7 @@ aside {
 
 @media only screen and (max-width: 900px) {
 	.topics, .travel {
-		height: 360px;
+		height: auto;
 	}
 }
 
@@ -313,7 +299,7 @@ aside {
 		font-weight: bold;
 	}
 	.topics, .travel {
-		height: 310px;
+		height: auto;
 	}
 	.about img {
 		width: 35%;
@@ -340,7 +326,7 @@ aside {
 	}
 	.topics, .travel {
 		width: auto;
-		height: 400px;
+		height: auto;
 		float: none;
 	}
 	.about {
@@ -352,16 +338,22 @@ aside {
 }
 
 @media only screen and (max-width: 520px) {
+	h1 {
+		margin: 1em;
+		font-size: 1.5em;
+	}
 	main h5 {
 		font-size: 1.25em;
+	}
+	aside {
+		display: none;
 	}
 	.topics, .travel {
 		height: auto;
 	}
 	.about {
 		padding-top: .85em;
-	}
-	aside {
-		display: none;
+		width: 100%;
+		padding: none;
 	}
 }

@@ -257,7 +257,8 @@ aside hr {
 		margin: auto;
 	}
 	.about {
-		margin: 0 3em;
+		width: 65%;
+		margin: none;
 	}
 	.about img {
 		width: 15%;

@@ -223,7 +223,7 @@ aside hr {
 }
 
 .about {
-	width: 66%;
+	width: 65%;
 	float:left;
 	margin-right: 0;
 }
@@ -270,6 +270,10 @@ aside hr {
 		padding: .5em 0;
 		line-height: 1.25em;
 	}
+	aside {
+		padding: auto;
+		margin: auto;
+	}
 	.topics, .travel {
 		width: 46%;
 		margin: 1%; 
@@ -301,6 +305,9 @@ aside hr {
 	}
 	.topics, .travel {
 		height: auto;
+	}
+	.about {
+		width: 60%;
 	}
 	.about img {
 		width: 35%;
@@ -340,8 +347,12 @@ aside hr {
 
 @media only screen and (max-width: 520px) {
 	h1 {
-		margin: 1em;
 		font-size: 1.5em;
+		margin: none;
+		color: #fff;
+	}
+	h4 {
+		font-size: 1em;
 	}
 	main h5 {
 		font-size: 1.25em;
@@ -353,8 +364,11 @@ aside hr {
 		height: auto;
 	}
 	.about {
-		padding-top: .85em;
+		padding: .85em 0 0 0;
 		width: 100%;
 		padding: none;
+	}
+	#bcghome, #bcgtravels, #bcgsanfran, #bcgwrites, #bcgeats, #bcgreads, #bcgabout {
+		height: 10em;
 	}
 }

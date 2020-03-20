@@ -167,6 +167,17 @@ aside hr {
 	text-align: center;
 }
 
+
+#bcgkyoto {
+	background-image: url(../images/travel/kyoto.jpg);
+	height: 22em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
+	text-align: center;
+}
+
 #bcgwrites {
 	background-image: url(../images/stories/stories.jpg);
 	height: 22em;

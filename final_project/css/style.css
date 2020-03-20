@@ -157,6 +157,18 @@ aside hr {
 	text-align: center;
 }
 
+}
+
+#bcgtokyo {
+	background-image: url(../images/travel/tokyo.jpg);
+	height: 22em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #324647;
+	text-align: center;
+}
+
 #bcgwrites {
 	background-image: url(../images/stories/stories.jpg);
 	height: 22em;

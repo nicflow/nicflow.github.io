@@ -236,7 +236,7 @@ aside hr {
 	margin: 0 auto;
 }
 
-.topics, .travel {
+.topics, .writes, .travel {
 	width: 24%;
 	margin: .5%;
 	padding: .5% 0;
@@ -250,15 +250,6 @@ aside hr {
 	padding-top: 2em;
 	text-align: justify;
 	margin: 0 2em;
-}
-
-.writes {
-	width: 24%;
-	margin: .5%;
-	padding: .5% 0;
-	line-height: 1.5em;
-	float: left;
-	height: 300px;
 }
 
 .about {

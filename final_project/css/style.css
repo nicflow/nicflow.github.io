@@ -253,10 +253,12 @@ aside hr {
 }
 
 .writes {
+	width: 24%;
+	margin: .5%;
+	padding: .5% 0;
 	line-height: 1em;
-	padding-top: 1em;
-	text-align: justify;
-	margin: 0 2em;
+	float: left;
+	height: 200px;
 }
 
 .about {

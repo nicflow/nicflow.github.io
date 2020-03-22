@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Arsenal');
+
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 14px; /*1em = 14px*/
+    margin-right: 3.5em;
+    margin-left: 3.5em;
+	color: #324647;
+}
+
+nav a {
+	font-family: 'Quicksand', sans-serif;
+	font-style: normal;
+	font-color: #324647;
+	font-size: .90em;
+	float: left;
+    padding: 1.5em;
+}
+
+nav {
+	float: right;
+}
+
+nav a:hover {
+	color: #9C4F66;
+}
+
+section {
+	line-height: 1,3;
+    margin: 1em 0;
+    padding: 1.5em;
+}
+
+em {
+	font-style: italic;
+	font-weight: bold;
+}
+
+img {
+	background-size: cover;
+	width: 100%
+}
+
+a {
+	color: #9C4F66;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+h1 {
+	font-family: "Arsenal", sans-serif;
+	font-size: 3em;
+	font-weight: bold;
+	margin: 3em 0 0 0;
+}
+
+h2 {
+	font-family: "Arsenal", serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: .5em 0 .5em 0; 
+}
+
+main h4 {
+	font-family: "Arsenal", sans-serif;
+	text-align: center;
+	font-size: 1.5em;
+	padding: .5em;
+}
+
+main h5 {
+	font-family: "Arsenal", sans-serif;
+	text-align: center;
+	font-size: 1.5em;
+	padding: .5em;
+}
+
+p {
+	padding-bottom: 1em;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	background-color: #9C4F66;
+	width: 100%
+}
+
+footer {
+	clear: both;
+	font-family: 'Quicksand', sans-serif;
+	font-style: normal;
+	text-align: center;
+	font-size: .90em;
+	margin: .75em;
+	padding-bottom: 1em;
+}
+
+label {
+	font-family: 'Quicksand', sans-serif;
+	font-style: normal;
+	font-color: #9C4F66;
+	font-size: .90em;
+    padding: 1.5em;
+    text-align: center;
+    display: none;
+}
+
+aside {
+	padding: 1.5em;
+	float: right;
+	width: 20%;
+	margin: 1em 3em 0 0em;
+	line-height: 1.5em;
+}
+
+aside h2 {
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+aside hr {
+	margin-bottom: 2em;
+	width: 75%;
+}
+
+#bcghome {
+	background-image: url(../images/home.jpg);
+	height: 22em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
+	text-align: center;
+}
+
+#bcgtravels {
+	background-image: url(../images/travel/travel.jpg);
+	height: 22em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
+	text-align: center;
+}
+
+#bcgsanfran {
+	background-image: url(../images/travel/sanfrancisco.jpg);
+	height: 22em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #324647;
+	text-align: center;
+}
+
+#bcgtokyo {
+	background-image: url(../images/travel/tokyoheader.jpg);
+	height: 22em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
+	text-align: center;
+}
+
+#bcgkyoto {
+	background-image: url(../images/travel/kyotoheader.jpg);
+	height: 22em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
+	text-align: center;
+}
+
+#bcgbeijing {
+	background-image: url(../images/travel/beijingheader.jpg);
+	height: 22em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
+	text-align: center;
+}
+
+#bcgwrites {
+	background-image: url(../images/stories/stories.jpg);
+	height: 22em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
+	text-align: center;
+}
+
+#bcgreads {
+	background-image: url(../images/readsheader.jpg);
+	height: 22em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
+	text-align: center;
+}
+
+#bcgeats {
+	background-image: url(../images/eats/eats.jpg);
+	height: 22em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
+	text-align: center;
+}
+
+#bcgabout {
+	background-image: url(../images/about/about.jpg);
+	height: 22em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
+	text-align: center;
+}
+
+#toggle {
+	display: none;
+}
+
+#wrapper {
+	max-width: 1240px; 
+	margin: 0 auto;
+}
+
+.writes {
+	width: 24%;
+	margin: .5%;
+	padding: .5% 0;
+	line-height: 1.5em;
+	float: left;
+	height: 300px;
+}
+
+.topics, .travel {
+	width: 24%;
+	margin: .5%;
+	padding: .5% 0;
+	line-height: 1.5em;
+	float: left;
+	height: 300px;
+}
+
+.about, .eats {
+	line-height: 1.5em;
+	padding-top: 2em;
+	text-align: justify;
+	margin: 0 2em;
+}
+
+.about {
+	width: 65%;
+	float:left;
+	margin-right: 0;
+}
+
+.about img {
+	float: left;
+	width: 30%;
+	padding: .5em 2em;
+}
+
+.about hr {
+	width: 50%;
+}
+
+.about p, h5 {
+	width: 100%;
+}
+
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;#bcg
+	height: 0;
+	font-size: 0;
+	visibility; hidden;
+}
+
+@media only screen and (min-width: 1675px) {
+	body {
+		font-size: 1.05em;
+		margin: auto;
+	}
+	.about {
+		width: 65%;
+		margin: none;
+	}
+	.about img {
+		width: 15%;
+	}
+}
+
+@media only screen and (max-width: 1080px) {
+	main h5 {
+		padding: .5em 0;
+		line-height: 1.25em;
+	}
+	aside {
+		padding: auto;
+		margin: auto;
+	}
+	.topics, .travel {
+		width: 46%;
+		margin: 1%; 
+		padding: 1%;
+		height: auto;
+	}
+	.about {
+		margin: auto;
+	}
+	.about img {
+		width: 25%;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.topics, .travel {
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	h1 {
+		font-size: 2.5em;
+		margin: 3em 1em;
+	}
+	h2 {
+		font-size: 1.25em;
+		font-weight: bold;
+	}
+	.topics, .travel {
+		height: auto;
+	}
+	.about {
+		width: 60%;
+	}
+	.about img {
+		width: 35%;
+		padding: .5em .75em .5em 0;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	nav {
+		display: none;
+	}
+	nav a {
+		display: block;
+		float: none;
+	}
+	label {
+		display: block;
+	}
+	#toggle:checked + nav {
+		display: block;
+	}
+	#bcg {
+		width: auto;
+	}
+	.topics, .travel {
+		width: auto;
+		height: auto;
+		float: none;
+	}
+	.about {
+		text-align: left;
+	}
+	.about img {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	h1 {
+		font-size: 1.5em;
+		margin: none;
+		color: #fff;
+	}
+	h4 {
+		font-size: 1em;
+	}
+	main h5 {
+		font-size: 1.25em;
+	}
+	aside {
+		display: none;
+	}
+	.topics, .travel {
+		height: auto;
+	}
+	.about {
+		padding: .85em 0 0 0;
+		width: 100%;
+		padding: none;
+	}
+	#bcghome, #bcgtravels, #bcgsanfran, #bcgwrites, #bcgeats, #bcgreads, #bcgabout {
+		height: 10em;
+	}
+}

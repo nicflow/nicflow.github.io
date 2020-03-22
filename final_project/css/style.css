@@ -245,9 +245,16 @@ aside hr {
 	height: 300px;
 }
 
-.about, .writes, .eats {
+.about, .eats {
 	line-height: 1.5em;
 	padding-top: 2em;
+	text-align: justify;
+	margin: 0 2em;
+}
+
+.writes {
+	line-height: 1em;
+	padding-top: 1em;
 	text-align: justify;
 	margin: 0 2em;
 }

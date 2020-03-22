@@ -236,7 +236,16 @@ aside hr {
 	margin: 0 auto;
 }
 
-.topics, .writes, .travel {
+.writes {
+	width: 24%;
+	margin: .5%;
+	padding: 0;
+	line-height: 1.5em;
+	float: left;
+	height: 300px;
+}
+
+.topics, .travel {
 	width: 24%;
 	margin: .5%;
 	padding: .5% 0;

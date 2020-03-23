@@ -64,6 +64,14 @@ h2 {
 	padding: .5em 0 .5em 0; 
 }
 
+h3 {
+	font-family: "Arsenal", serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: .5em 0 .5em 0; 
+	text-align: left;
+}
+
 main h4 {
 	font-family: "Arsenal", sans-serif;
 	text-align: center;
@@ -80,11 +88,6 @@ main h5 {
 
 p {
 	padding-bottom: 1em;
-}
-
-p1 {
-	padding-bottom: 1em;
-	text-align: left;
 }
 
 hr {

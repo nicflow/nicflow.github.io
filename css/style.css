@@ -205,9 +205,18 @@ aside hr {
 	text-align: center;
 }
 
-
 #bcgsiemreap {
 	background-image: url(../images/travel/siemreapheader.jpg);
+	height: 22em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
+	text-align: center;
+}
+
+#bcgsydney {
+	background-image: url(../images/travel/sydney.jpg);
 	height: 22em;
 	background-size: cover;
 	background-repeat: no-repeat;

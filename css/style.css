@@ -90,6 +90,11 @@ p {
 	padding-bottom: 1em;
 }
 
+p {
+	padding-bottom: 1em;
+	font-size: 1em;
+}
+
 hr {
 	border: none;
 	height: 1px;

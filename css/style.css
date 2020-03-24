@@ -306,7 +306,7 @@ aside hr {
 }
 
 .about img {
-	float: left, right;
+	float: left;
 	width: 30%;
 	padding: .5em 2em;
 }

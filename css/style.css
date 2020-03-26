@@ -246,6 +246,16 @@ aside hr {
 	text-align: center;
 }
 
+#bcgamman {
+	background-image: url(../images/travel/ammanheader.jpg);
+	height: 22em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
+	text-align: center;
+}
+
 #bcgwrites {
 	background-image: url(../images/stories/storiesheader.jpg);
 	height: 22em;

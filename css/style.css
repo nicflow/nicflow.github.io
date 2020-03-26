@@ -226,6 +226,16 @@ aside hr {
 	text-align: center;
 }
 
+#bcgauckland {
+	background-image: url(../images/travel/auckland.jpg);
+	height: 22em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #324647;
+	text-align: center;
+}
+
 #bcgwrites {
 	background-image: url(../images/stories/storiesheader.jpg);
 	height: 22em;

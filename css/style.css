@@ -347,11 +347,11 @@ aside hr {
 	line-height: 1.5em;
 	padding-top: 2em;
 	text-align: justify;
-	margin: 0 2em;
+	margin: 0 1em;
 }
 
 .about {
-	width: 75%;
+	width: 65%;
 	float:left;
 	margin-right: 0;
 }

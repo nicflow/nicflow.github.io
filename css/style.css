@@ -330,13 +330,12 @@ aside hr {
 	margin: .5%;
 	padding: .5% 0;
 	line-height: 1.5em;
-	float: center;
+	float: left;
 	height: 300px;
 }
 
 .reads img {
 	width: 50%;
-	float: center;
 	padding: .5em;
 }
 

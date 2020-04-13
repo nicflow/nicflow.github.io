@@ -335,8 +335,8 @@ aside hr {
 }
 
 .reads img {
-	width: 24%;
-	padding: .5em 1em;
+	width: 50%;
+	padding: .5em;
 }
 
 .topics, .travel, .writes {

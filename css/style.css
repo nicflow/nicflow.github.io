@@ -335,7 +335,8 @@ aside hr {
 }
 
 .reads img {
-	width: 30%;
+	width: 35%;
+	float: center;
 	padding: .5em;
 }
 

@@ -118,7 +118,7 @@ label {
 }
 
 aside {
-	padding: 1.5em;
+	padding: 1em;
 	float: right;
 	width: 20%;
 	margin: 1em 3em 0 0em;
@@ -343,7 +343,7 @@ aside hr {
 	height: 300px;
 }
 
-.about, .eats {
+.about {
 	line-height: 1.5em;
 	padding-top: 2em;
 	text-align: justify;

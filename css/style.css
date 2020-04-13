@@ -136,12 +136,6 @@ aside hr {
 	width: 75%;
 }
 
-aside img {
-	margin-bottom: 1em;
-	width: 75%;
-	float: center;
-}
-
 #bcghome {
 	background-image: url(../images/logotransparent.jpg);
 	height: 18em;

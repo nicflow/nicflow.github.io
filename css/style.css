@@ -332,7 +332,11 @@ aside hr {
 	line-height: 1.5em;
 	float: left;
 	height: 300px;
-	img: 50%
+}
+
+.reads img {
+	width: 24%;
+	padding: .5em 1em;
 }
 
 .topics, .travel, .writes {

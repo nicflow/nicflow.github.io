@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Quinoa Bells</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- [if lt IE 9]>
+            <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+        <![endif] -->
+    </head>
+	
+	<body>
+		<div id="wrapper">
+			<header class="clearfix">
+			<label for="toggle">Menu</label>
+			<input type="checkbox" id="toggle">
+				<nav class="clearfix">
+					<a href="index">home</a>
+					<a href="adventures">adventures</a>
+					<a href="writes">stories</a>
+					<a href="reads">reads</a>
+					<a href="eats">eats</a>
+					<a href="about">about</a>
+				</nav>
+			</header>
+			
+			<main>
+				<section id="bcgeats" alt="Eats!">
+				</section>
+			
+				<aside>
+					<h2>Shopping List</h2></a>
+					<p>1 cup quinoa</p>
+					<p>2 cups chicken or vegetable stock</p>
+					<p>6 small bell peppers, mixed colors, seeded with tops off</p>
+					<p>3 tablespoons EVOO, plus extra for drizzling</p>
+					<p>Salt and freshly ground black pepper</p>
+					<p>4 cloves garlic, thinly sliced</p>
+					<p>1 small firm eggplant, trimmed of half the skin, chopped</p>
+					<p>1 small to medium firm zucchini, seeded and chopped</p>
+					<p>1 red onion, chopped</p>
+					<p>2 plum tomatoes, chopped</p>
+					<p>1 cup crumbled feta</p>
+				<hr>
+					<h2>Optional Adds</h2>
+					<p>1 fresh chile pepper, such as Fresno, thinly sliced, or 1 teaspoon dried crushed pepper</p>
+					<p>1/2 cup fresh flat-leaf parsley leaves, chopped</p>
+					<p>1/4 cup fresh mint leaves, a handful, chopped</p>
+				
+				</aside>
+
+				<section class="about">
+				<hr>
+					<h5>Quinoa- and Veggie-stuffed Bell Peppers</h5>
+
+					<p></p>					
+					
+
+					<p>First things first, let's get that oven to 450 degrees (so hot!).</p>
+					
+					<p>Toss your quinoa (1 cup) into a strainer to rinse for about 5 minutes. Turns out it has this film on it that can compromise the taste when it's been cooked. Letting it sit in some water, and rinsing until it runs clear, takes it right off. Once you've got in cleaned, add it into your stock (2 cups) and bring it to a boil. Once it's bubbling, cover it up it and simmer it down now to cook for about 12-15 minutes. At the end the liquid should be absorbed and the grains translucent. </p>
+					
+					<p>While your quinoa is getting it's simmer on, line your bells (this recipe is for 6) up on a baking sheet or pretty baking dish (I prefer the latter), drizzle them with some EVOO and season them all around with salt and pepp. Roast them until the skins begin to char and they're tender, about 20 minutes.</p>
+					
+				<img id="left-image" src="images/eats/quinoabells.jpg" alt="Picture of Veggie-stuff Bell Peppers" title="Quinoa- and Veggie-stuffed Bell Peppers">
+
+					<p>A few minutes in to your bells cooking downstairs, heat 3 tablespoons of olive oil over medium-high heat. Add your garlic (4 cloves, thinly sliced), chopped eggplant (ugh! Cutting this is the worst, am. I. RIGHT?!) (1 small, skin removed), chopped zucchini (1), chopped red onion (1), chili (if you've opted for it; I'm always too lazy to track them down outside of Trader Joe's), and season with salt and pepp. Cook this melange of color and flavor for 10-12 minutes until tender. At this point, your quinoa will be ready to fluff up with a fork. And your 1 cup will have blossomed into 4 in minutes! Magic. Add your mint (1/4 cup), parsley (1/2 cup) and 2 plum tomatoes to the other veg and pour your fluffed quinoa right on top and fold together.</p>
+
+					<p>Now, the recipe says to remove your bells and cool 'em down to room temp. No. I like them hot. So I try to get everything lined up so everything emerges at once. This is both frustrating and anxiety-inducing but it's how Debs did it and so I do the same! The stress!</p>
+
+					<p>Top your bells up with the quinoa and veggie stuffing and drizzle with olive oil (of which you can never have enough!). Serve with lots of feta cheese crumbles. Yum!</p>
+					
+					<p>For a make-ahead meal, you can cool and chill your stuffed bells in the fridge. To serve, roast in a 375 degree oven until the peppers are hot through and cover with your feta crumbles.</p>
+								
+				</section>	
+			</main>
+
+			<footer>
+				<hr>
+					<p>&copy; 2020 Nicole Flowers | Recipe courtesy of The Food Network</p>
+			</footer>
+		</div>
+	</body>
+</html>

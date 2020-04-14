@@ -147,7 +147,7 @@ aside hr {
 }
 
 #bcgtravels {
-	background-image: url(../images/logotransparent.jpg);
+	background-image: url(../images/travelsheader.png);
 	height: 18em;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -157,7 +157,7 @@ aside hr {
 }
 
 #bcgsabbatical {
-	background-image: url(../images/logotransparent.jpg);
+	background-image: url(../images/travelsheader.jpg);
 	height: 18em;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -277,7 +277,7 @@ aside hr {
 }
 
 #bcgwrites {
-	background-image: url(../images/logotransparent.jpg);
+	background-image: url(../images/writesheader.jpg);
 	height: 18em;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -287,7 +287,7 @@ aside hr {
 }
 
 #bcgreads {
-	background-image: url(../images/logotransparent.jpg);
+	background-image: url(../images/readsheader.jpg);
 	height: 18em;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -297,7 +297,7 @@ aside hr {
 }
 
 #bcgeats {
-	background-image: url(../images/logotransparent.jpg);
+	background-image: url(../images/eatsheader.jpg);
 	height: 18em;
 	background-size: cover;
 	background-repeat: no-repeat;

@@ -339,6 +339,11 @@ aside hr {
 	padding: .5em;
 }
 
+.writes img {
+	width: 75%;
+	padding: .5em;
+}
+
 .topics, .travel, .writes {
 	width: 24%;
 	margin: .5%;

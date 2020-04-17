@@ -421,7 +421,7 @@ aside hr {
 		padding: auto;
 		margin: auto;
 	}
-	.topics, .travel {
+	.topics, .travel, .reads, .writes {
 		width: 46%;
 		margin: 1%; 
 		padding: 1%;
@@ -436,7 +436,7 @@ aside hr {
 }
 
 @media only screen and (max-width: 900px) {
-	.topics, .travel {
+	.topics, .travel, .reads, .writes {
 		height: auto;
 	}
 }
@@ -450,7 +450,7 @@ aside hr {
 		font-size: 1.25em;
 		font-weight: bold;
 	}
-	.topics, .travel {
+	.topics, .travel, .reads, .writes {
 		height: auto;
 	}
 	.about {
@@ -479,7 +479,7 @@ aside hr {
 	#bcg {
 		width: auto;
 	}
-	.topics, .travel {
+	.topics, .travel, .reads, .writes {
 		width: auto;
 		height: auto;
 		float: none;
@@ -507,7 +507,7 @@ aside hr {
 	aside {
 		display: none;
 	}
-	.topics, .travel {
+	.topics, .travel, .reads, .writes {
 		height: auto;
 	}
 	.about {
